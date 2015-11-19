@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>shawncothran (Shawn Cothran)</title>
+
+    <link rel="stylesheet" href="css/main.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.min.css">
+    <link rel="icon" type="image/x-icon" class="octicon octicon-favicon">
+
+  </head>
+
+  <body>
+    <header class="topHeader">
+      <nav class="pageAction">
+        <a href="#"><span class="mega-octicon octicon-mark-github"></span></a>
+        <input type="text" name="name" placeholder="Search GitHub">
+        <a href="#">Pull requests</a>
+        <a href="#">Issues</a>
+        <a href="#">Gist</a>
+      </nav>
+      <nav class="userAction">
+        <a href="#"><span class="octicon octicon-bell"></span></a>
+        <a href="#"><span class="octicon octicon-plus"></span><span class="octicon octicon-triangle-down"></span></a>
+        <a href="#"><img class="avatar" id="avasmall"/><span class="octicon octicon-triangle-down"></span></a>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <img class="avatar" id="avalarge"/>
+        <h1 class="name"></h1>
+        <h2 class="username"></h2>
+        <h3 class="location"></h3>
+        <h3 class="joined">Joined on </h3>
+        <nav>
+          <section>
+            {num}
+            <span>Followers</span>
+          </section>
+          <section>
+            {num}
+            <span>Starred</span>
+          </section>
+          <section>
+            {num}
+            <span>Following</span>
+          </section>
+        </nav>
+        <h2>Organizations</h2>
+        <a href="/theironyard-frontend-nashville" aria-label="theironyard-frontend-nashville" class="tooltipped tooltipped-n avatar-group-item" itemprop="follows"><img alt="@theironyard-frontend-nashville" src="https://avatars2.githubusercontent.com/u/12956562?v=3&amp;s=84"></a>
+      </aside>
+      <section class="tabContent">
+        <header>
+          <nav class="tabs">
+            <a href="#"><span class="octicon octicon-plus"></span> Contributions</a>
+            <a href="index.html" class="active"><span class="octicon octicon-repo"></span> Repositories</a>
+            <a href="#"><span class="octicon octicon-rss"></span> Public activity</a>
+          </nav>
+          <button class="edit" type="button" name="button"><span class="octicon octicon-pencil">Edit profile</span></button>
+        </header>
+        <section class="repos">
+          <header class="repoHead">
+            <nav class="repoSelect">
+              <input type="text" name="name" placeholder="Find a repository...">
+              <button class="search" for='name' type="button" name="search">Search</button>
+              <a href="#">All</a>
+              <a href="#">Public</a>
+              <a href="#">Private</a>
+              <a href="#">Sources</a>
+              <a href="#">Forks</a>
+              <a href="#">Mirrors</a>
+              <button class="new" type="button" name="button"><span class="octicon octicon-repo">New</span></button>
+            </nav>
+          </header>
+        </section>
+      </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <div id="app">
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
